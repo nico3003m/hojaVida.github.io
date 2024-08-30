@@ -1,0 +1,118 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    max-width: 900px;
+    margin: 20px;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.profile-pic img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.sidebar h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.title {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px;
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    color: #333;
+}
+
+h3 {
+    margin: 10px 0 5px;
+    color: #007bff;
+}
+
+.job-title, .degree {
+    font-weight: bold;
+    color: #333;
+}
+
+.job-duration, .edu-duration {
+    font-style: italic;
+    color: #777;
+}
+
+.job-description, .edu-description {
+    margin: 5px 0;
+    color: #555;
+}
+
+.skills {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    background: #007bff;
+    color: white;
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
+
+.skills li:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        text-align: center;
+    }
+
+    .content {
+        padding: 10px;
+    }
+}
