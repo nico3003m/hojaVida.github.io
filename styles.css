@@ -97,7 +97,19 @@ h3 {
     border-radius: 20px;
     font-size: 0.9em;
 }
-
+.buttonDowload a {
+    background: #007bff;
+    display: inline-block;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-size: 0.9em;
+    margin: 5px 10px 5px 0;
+    border: none;
+}
+.buttonDowload a:hover {
+    background: #0056b3;
+}
 .skills li:hover {
     background: #0056b3;
 }
