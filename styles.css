@@ -92,8 +92,8 @@ h3 {
 }
 
 .skills li {
-    background: #C0C0C0;
-    color: black;
+    background: #000000;
+    color: rgb(255, 255, 255);
     display: inline-block;
     margin: 5px 10px 5px 0;
     padding: 5px 10px;
@@ -106,8 +106,8 @@ h3 {
 }
 
 .certificados li {
-    background: #C0C0C0;
-    color: black;
+    background: #000000;
+    color: rgb(255, 255, 255);
     display: inline-block;
     margin: 5px 10px 5px 0;
     padding: 15px 30px;
@@ -116,9 +116,9 @@ h3 {
 }
 
 .buttonDowload a {
-    background: #C0C0C0;
+    background: #000000;
     display: inline-block;
-    color: black;
+    color: rgb(255, 255, 255);
     border-radius: 20px;
     padding: 8px 15px;
     font-size: 0.9em;
@@ -127,11 +127,11 @@ h3 {
 }
 
 .buttonDowload a:hover {
-    background: #8bee35;
+    background: #3f3f3f;
 }
 
 .skills li:hover {
-    background: #8bee35;
+    background: #3f3f3f;
 }
 
 
