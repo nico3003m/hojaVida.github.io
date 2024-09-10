@@ -19,7 +19,7 @@ body {
 }
 
 .sidebar {
-    background-color: #007bff;
+    background-color: #000000;
     color: #fff;
     padding: 20px;
     width: 250px;
@@ -58,27 +58,30 @@ body {
 
 h2 {
     margin-top: 0;
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid #000000;
     padding-bottom: 5px;
     color: #333;
 }
 
 h3 {
     margin: 10px 0 5px;
-    color: #007bff;
+    color: #000000;
 }
 
-.job-title, .degree {
+.job-title,
+.degree {
     font-weight: bold;
     color: #333;
 }
 
-.job-duration, .edu-duration {
+.job-duration,
+.edu-duration {
     font-style: italic;
     color: #777;
 }
 
-.job-description, .edu-description {
+.job-description,
+.edu-description {
     margin: 5px 0;
     color: #555;
 }
@@ -89,30 +92,49 @@ h3 {
 }
 
 .skills li {
-    background: #007bff;
-    color: white;
+    background: #C0C0C0;
+    color: black;
     display: inline-block;
     margin: 5px 10px 5px 0;
     padding: 5px 10px;
     border-radius: 20px;
     font-size: 0.9em;
 }
-.buttonDowload a {
-    background: #007bff;
+.certificados {
+    list-style-type: none;
+    padding: 0;
+}
+
+.certificados li {
+    background: #C0C0C0;
+    color: black;
     display: inline-block;
-    color: white;
+    margin: 5px 10px 5px 0;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-size: 0.9em;
+}
+
+.buttonDowload a {
+    background: #C0C0C0;
+    display: inline-block;
+    color: black;
     border-radius: 20px;
     padding: 8px 15px;
     font-size: 0.9em;
     margin: 5px 10px 5px 0;
     border: none;
 }
+
 .buttonDowload a:hover {
-    background: #0056b3;
+    background: #8bee35;
 }
+
 .skills li:hover {
-    background: #0056b3;
+    background: #8bee35;
 }
+
+
 
 @media (max-width: 768px) {
     .container {
